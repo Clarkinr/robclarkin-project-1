@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    
+}
+
+/* Logo and  Navigation Menu */
+
+#logo-top {
+    float: left;
+    margin-left: 30px;
+    text-decoration: none;
+    color: coral;
+    font-family: Anton, sans-serif;
+}
+
+#menu {
+    float: right;
+}
+
+#menu, #logo-top {
+    line-height: 75px;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
+    display: inline;
+}
+#menu a {
+    text-decoration: none;
+    color: brown;
+    font-family: Anton, sans-serif;
+    font-size: 1.6em;
+}
+
+/* Main image on index page */
+
+#main-image-outer {
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/pexels-photo-5093614.jpeg) no-repeat center center;
+    clear: both;
+    filter: grayscale(100%);
+}
