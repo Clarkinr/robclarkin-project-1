@@ -18,6 +18,7 @@ body {
     text-decoration: none;
     color: coral;
     font-family: Anton, sans-serif;
+    text-transform: uppercase;
 }
 
 #menu {
@@ -25,7 +26,7 @@ body {
 }
 
 #menu, #logo-top {
-    line-height: 75px;
+    line-height: 60px;
 }
 
 #menu li {
@@ -38,6 +39,7 @@ body {
     color: brown;
     font-family: Anton, sans-serif;
     font-size: 1.6em;
+    text-transform: uppercase;
 }
 
 /* Main image on index page */
@@ -49,9 +51,26 @@ body {
 }
 
 #main-image {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url(../images/pexels-photo-5093614.jpeg) no-repeat center center;
     clear: both;
     filter: grayscale(100%);
+}
+
+/* Cover text */
+#image-cover {
+    position: relative;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    width: max-content;
+    color: white;
+    padding-top: 300px;
+}
+
+#image-cover h2, h3{
+    font-size: 250%;
+    text-transform: uppercase;
+    font-family: Anton, sans-serif;
 }
