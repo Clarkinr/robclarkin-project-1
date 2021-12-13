@@ -51,7 +51,7 @@ body {
 }
 
 #main-image {
-    height: 700px;
+    height: 500px;
     width: 100%;
     background: url(../images/pexels-photo-5093614.jpeg) no-repeat center center;
     clear: both;
@@ -66,11 +66,35 @@ body {
     margin: 0 auto;
     width: max-content;
     color: white;
-    padding-top: 300px;
+    padding-top: 175px;
 }
 
 #image-cover h2, h3{
     font-size: 250%;
     text-transform: uppercase;
+    font-family: Anton, sans-serif;
+}
+
+
+#what-is img {
+    width: 100%;
+}
+#what-is > div{
+    height: 250px;
+    display: inline-block;
+}
+
+#what-image {
+    float: right;
+    margin-right: 100px;
+    width: 30%;
+    padding-top: 25px;
+}
+
+#what-text {
+    float: left;
+    padding-top: 100px;
+    width: 40%;
+    margin-left: 100px;
     font-family: Anton, sans-serif;
 }
