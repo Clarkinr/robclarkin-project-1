@@ -23,28 +23,28 @@ header {
     background-color: white;
 }
 
-#logo-top {
+.logo-top {
     float: left;
     margin-left: 30px;
     text-decoration: none;
-    color: black;
+    color: #3aaec6;
     text-transform: uppercase;
 }
 
-#menu {
+.menu {
     float: right;
 }
 
-#menu, #logo-top {
+.menu, .logo-top {
     line-height: 60px;
 }
 
-#menu li {
+.menu li {
     list-style-type: none;
     margin-right: 30px;
     display: inline;
 }
-#menu a {
+.menu a {
     text-decoration: none;
     color: black;
     font-family: Anton, sans-serif;
@@ -52,33 +52,36 @@ header {
     text-transform: uppercase;
 }
 
+.menu a:hover {
+    border-bottom: 1px solid black;
+}
+
 /* Main image on index page */
 
 #main-image-outer {
-    height: 600px;
+    height: 500px;
     padding-top: 60px;
     clear: both;
 }
 
 #main-image {
-    height: 500px;
+    height: 400px;
     width: 100%;
     background: url(../images/pexels-photo-5093614.jpeg) no-repeat center center;
 }
 
 /* Cover text */
 #image-cover {
-    position: relative;
     text-align: center;
     height: auto;
     margin: 0 auto;
     width: max-content;
     color: white;
-    padding-top: 175px;
+    padding-top: 100px;
 }
 
 #image-cover h2, h3{
-    font-size: 250%;
+    font-size: 400%;
     text-transform: uppercase;
 }
 
@@ -88,55 +91,100 @@ header {
     width: 100%;
 }
 
-#what-is > div{
+#what-is {
+    margin: 0 auto;
+    margin-top: -60px;
     max-height: 500px;
-    display: inline-block;
+    margin-left: 150px;
 }
 
 #what-image {
-    float: right;
-    margin-right: 50px;
-    width: 40%;
-    margin-top: -25px;
+    float: left;
+    width: 100%;
+    padding-top: 20px;
 }
 
 #what-text {
+    padding: 20px;
     float: left;
-    width: 40%;
-    margin-left: 50px;
-    padding-top: 50px;
+    width: 30%;
+    text-align: center;
+    border: 3px solid gray;
+    border-radius: 15px;
+    background-color: #f3f4f4;
+}
+
+#what-text:hover {
+    box-shadow: 5px 10px;
 }
 
 
-/*why is this important to me section*/
+/*why is this important to me */
 
 
 #why img {
-    width: 100%;
+    width: 95%;
 }
 
-#why > div{
-    clear: both;
-    display: inline-block;
+#why {
+    margin-top: -60px;
+    max-height: 500px;
+    margin-right: 150px;
 }
 
 #why-image {
-    float: left;
-    margin-left: 50px;
-    width: 40%;
+    padding-top: 20px;
+    width: 50%;
+    margin: auto;
 }
 
 #why-text {
+    padding: 20px;
     float: right;
-    padding-top: 30px;
-    width: 40%;
-    margin-right: 50px;
-    text-align: right;
+    width: 30%;
+    text-align: center;
+    border: 3px solid gray;
+    border-radius: 15px;
+    background-color: #f3f4f4;
 }
-/*infographic*/
 
-#infographic {
-    width: 100%;
+#why-text:hover {
+    box-shadow: 5px 10px;
+}
+/*Where to start*/
+
+#starter {
     clear: both;
-    height: 100%;
+    padding-top: 60px;
+    
+}
+
+#starter-text {
+    text-align: center;
+    background-color: #3aaec6;
+    color: white;
+    font-size: 300%;
+}
+
+#starter-text ul {
+    font-family: font-family: Work Sans, sans-serif;;
+
+}
+
+
+
+/*Get involved link*/
+
+#involve {
+    margin: 0 auto;
+    width: 33%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 80px;
+    position: absolute;
+    left: 33%;
+    color: gray;
+    background-color: #f3f4f4;
+    font-family: work sans, sans-serif;
+    font-size: 300%;
 }
