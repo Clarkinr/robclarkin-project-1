@@ -27,7 +27,7 @@ header {
     float: left;
     margin-left: 30px;
     text-decoration: none;
-    color: #3aaec6;
+    color: #1E77F7;
     text-transform: uppercase;
 }
 
@@ -46,7 +46,7 @@ header {
 }
 .menu a {
     text-decoration: none;
-    color: black;
+    color: #F7982A;
     font-family: Anton, sans-serif;
     font-size: 1.6em;
     text-transform: uppercase;
@@ -78,6 +78,7 @@ header {
     width: max-content;
     color: white;
     padding-top: 100px;
+    -webkit-text-stroke: 1px #F7982A;
 }
 
 #image-cover h2, h3{
@@ -155,23 +156,21 @@ header {
 
 #starter {
     clear: both;
-    padding-top: 60px;
+    padding: 60px 0px;
     
 }
 
 #starter-text {
     text-align: center;
-    background-color: #3aaec6;
+    background-color: #1E77F7;
     color: white;
     font-size: 300%;
 }
 
 #starter-text ul {
-    font-family: font-family: Work Sans, sans-serif;;
+    font-family: Work Sans, sans-serif;;
 
 }
-
-
 
 /*Get involved link*/
 
