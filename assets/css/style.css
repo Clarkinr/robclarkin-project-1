@@ -167,11 +167,6 @@ header {
     font-size: 300%;
 }
 
-#starter-text ul {
-    font-family: Work Sans, sans-serif;;
-
-}
-
 /*Get involved link*/
 
 #involve {
@@ -186,4 +181,11 @@ header {
     background-color: #f3f4f4;
     font-family: work sans, sans-serif;
     font-size: 300%;
+}
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+    
 }
