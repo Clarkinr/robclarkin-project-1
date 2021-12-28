@@ -392,11 +392,12 @@ header {
     width: 40%;
     padding-top: 200px;
     text-align: center;
+    color: #F7982A;
 }
 
 .more-vid {
     margin: 0 auto;
-    width: 65%;
+    text-align: center;
 }
 
 /* Footer */
