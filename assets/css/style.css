@@ -88,12 +88,16 @@ header {
     text-transform: uppercase;
 }
 
+
 /*what is section*/
 
 #what-is img {
     width: 100%;
 }
 
+a:link {
+    text-decoration: none;
+}
 #what-is {
     margin: 0 auto;
     margin-top: -60px;
@@ -115,6 +119,7 @@ header {
     border: 3px solid gray;
     border-radius: 15px;
     background-color: #f3f4f4;
+    color: black;
 }
 
 #what-text:hover {
@@ -191,7 +196,7 @@ header {
 }
 .form-input {
     background: white;
-    color: whitesmoke;
+    color: black;
     width: 100%;
     margin: 10px 10px 5px 0px;
 }

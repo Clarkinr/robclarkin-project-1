@@ -9,9 +9,11 @@
 </head>
 <body>
     <header>
+        <!-- Logo -->
         <a href="index.html">
             <h1 class="logo-top">Physical Literacy Ireland</h1>
         </a>
+        <!-- Navigation Menu -->
         <nav class="menu">
             <ul>
                 <li>
@@ -27,6 +29,7 @@
             </ul>
         </nav>
     </header>
+    <!-- Main image section -->
     <Section id="main-image-outer">
         <div id="main-image">
         <div id="image-cover">
@@ -36,58 +39,68 @@
         </div>
     </Section>
     <section>
+        <!-- first clickable div what is LHS -->
         <div id="what-is">
             <div id="what-text">
-                <h2>What is Physical Literacy</h2>
-                <p>Physical literacy is a fundamental and valuable human capability that can be described as a disposition acquired by human individuals encompassing the motivation, confidence, physical competence, knowledge and understanding that establishes purposeful physical pursuits as an integral part of their lifestyle.</p>
-            <div id="what-image">
-                <img src="./assets/images/PL-WHAT.png" alt="Physical literact Skills, Confidence, Motivation"> 
-            </div>
+                <a class="int-link" href="defintion.html"> 
+                    <h2>What is Physical Literacy</h2>
+                    <p>Physical literacy is a fundamental and valuable human capability that can be described as a disposition acquired by human individuals encompassing the motivation, confidence, physical competence, knowledge and understanding that establishes purposeful physical pursuits as an integral part of their lifestyle.</p>
+                    <div id="what-image">
+                        <img src="./assets/images/PL-WHAT.png" alt="Physical literact Skills, Confidence, Motivation"> 
+                    </div>
+                </a>
             </div>
         </div>
     </section>
+    <!-- second clickable div why RHS -->
     <Section id="why">
         <div>
             <div id="why-text">
-                <h2>Why Does This Matter</h2>
-                <p>The benefits of physical literacy aren’t limited to physical health. It also improves academic performance, cognitive skills, mental health, psychological wellness, social skills, and healthy lifestyle habits. Thus, all children should master fundamental movement skills and develop physical literacy. Physical literacy is just as important as the ability to read and write!</p>
-                <div id="why-image">
+                <a class="int-link" href="benefits.html"> 
+                    <h2>Why Does This Matter</h2>
+                    <p>The benefits of physical literacy aren’t limited to physical health. It also improves academic performance, cognitive skills, mental health, psychological wellness, social skills, and healthy lifestyle habits. Thus, all children should master fundamental movement skills and develop physical literacy. Physical literacy is just as important as the ability to read and write!</p>
+                    <div id="why-image">
                     <img src="./assets/images/why-pl.png" alt="Why physical literacy is important"> 
-                </div>
+                    </div>
+                </a>
             </div> 
         </div>
     </Section>
+    <!-- Getting started image and text -->
     <Section id="starter">
         <div id="starter-text">
             <h2>Getting started</h2>
             <p>“Regular physical activity is the key to getting healthy and staying healthy; yet studies show that few Irish people take part in regular physical activity (SLÁN 1999, 2002, 2007).  People use motor transport more than ever and technological advances mean that our working lives are more likely to be inactive, e.g. sitting at a computer.”</p>
         </div>
     </Section>
+    <!-- Sign up form for more info -->
     <Section class="helper-section">
-        <h1>Let's help find the right program for you!</h1>
-        <form method="push" class="helper">
+        <h2>Let's help find the right program for you!</h2>
+        <form action="/action_page.php" method="get" class="helper">
             <label for="fname">First Name:</label>
-            <input class ="form-input" type="text" name="fname" id="fname">
+            <input class ="form-input" type="text" name="fname" id="fname" required>
             <label for="lname">Last Name:</label>
-            <input class ="form-input" type="text" name="lname" id="lname">
+            <input class ="form-input" type="text" name="lname" id="lname" required>
             <label for="kids">Number of Kids:</label>
-            <input class ="form-input" type="text" name="kids" id="kids">
+            <input class ="form-input" type="text" name="kids" id="kids" required>
             <label for="email">Email:</label>
-            <input class ="form-input" type="email" name="email" id="email">
+            <input class ="form-input" type="email" name="email" id="email" required>
             <input type="Submit" value="Get Involved" id="involve">
         </form>
     </Section>
     <footer>
-            <div class="contact">
-                <h2>Get in touch</h2>
-                <p>Phone: 123 456 7890</p>
-                <p>Email: example@plireland.com</p>
-            </div>
-            <ul class="social-links">
-                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Join us on Facebook (opens in new tab)"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Join us on Instagram (opens in new tab)"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Join us on Youtube (opens in new tab)"><i class="fab fa-youtube"></i></a></li>
-            </ul>
+        <!-- contact info -->
+        <div class="contact">
+            <h2>Get in touch</h2>
+            <p>Phone: 123 456 7890</p>
+            <p>Email: example@plireland.com</p>
+        </div>
+        <!-- Social Media Links -->
+        <ul class="social-links">
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Join us on Facebook (opens in new tab)"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Join us on Instagram (opens in new tab)"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Join us on Youtube (opens in new tab)"><i class="fab fa-youtube"></i></a></li>
+        </ul>
     </footer>
 
      <!-- Font awesome script-->
