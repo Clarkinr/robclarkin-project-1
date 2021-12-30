@@ -4,7 +4,7 @@ Physical Literacy Ireland is a website intened to be an information point mainly
 
 Users can find out basic information about Physical literacy and it's benefits and also submit to the author for suggestions on how to become more physicaly literate.
 
-![responsive-capture](/workspace/robclarkin-project-1/assets/images/resposive-capture.PNG)
+![responsive-capture-amiresponsive](screenshots-readme/resposive-capture.PNG)
 
 ## Features
 
@@ -19,16 +19,29 @@ Users can find out basic information about Physical literacy and it's benefits a
     - Each page features a different main image with an tag line intended to represent the page's content
     - The images were all chosen from Pexels and represent physical activity 
 
+! [standard-page-formatting] (/workspace/robclarkin-project-1/screenshots-readme/Standardpage.PNG)
+
 ### - About and Benefits page structure
     - Both pages are divided into three sections; main image followed by 2 subsequent sections
     - The about page is intended to define what Physical Literacy is and give the user a video to help extend their knowledge
     - The Benefits page is intended to show the physical and mental benefits of being physicaly active. 
     - Across all pages I have used images of multiple age atheletes to convey that physical literacy is a life long pursuit.
 
+! [about-structure] (/workspace/robclarkin-project-1/screenshots-readme/About-structure.PNG)
+
 ### - The Home page 
     - The home page features 2 clickable internal links which send the user to the about and Benefits pages.
     - The home page also features a second background image which is intended to draw the user into wanting to know more
     - There is a form for contacting the site owner (the form is not currently active and this is somthing that I would add in at a later date if still working on this project)
+
+! [clickable-links] (/workspace/robclarkin-project-1/screenshots-readme/Clickableinternal links.PNG)
+
+
+### - The Form
+    - The Form consits of 4 elements first name, last name, number of kids and email.
+    - The site was intended to be aimed at parents and the form is to get in touch with someone to help you get the best program for your lifestyle
+
+! [form-and-footer] (/workspace/robclarkin-project-1/screenshots-readme/Form-footer.PNG)
 
 ### - The Footer
     - The Footer consits of contact information and social media links
@@ -51,6 +64,17 @@ Users can find out basic information about Physical literacy and it's benefits a
     - These were fixed using the jigsaw validator reccomendation
     - The CSS issue found was that a closing } or ; was not found in 3 instances
 
+### - Lighthouse 
+    - I performed a lighthouse test on both the desktop and mobile level
+    - Both showed good levels of accesibility, seo and best practices
+    - The results can be seen below 
+
+#### Desktop
+![desktop-lighthouse-test] (/workspace/robclarkin-project-1/screenshots-readme/Lighthouse-desktop.PNG)
+
+#### Mobile 
+![mobile-lighthouse-test] (/workspace/robclarkin-project-1/screenshots-readme/Lighthouse-mobile.PNG)
+
 ## Unfixed bugs
     - The form does not actually link to anywhere at present
     - The 2 clickable containers on the index page do not scale perfectly when resized, however they are equal on most standard screensizes at full screen
@@ -69,5 +93,8 @@ Users can find out basic information about Physical literacy and it's benefits a
     - The mental benefits of exercise were taken from ( https://appliedsportpsych.org/resources/health-fitness-resources/psychological-benefits-of-exercise/)
     - The Physical Benefits of exercise were taken from ( https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm)
 
+### - Media 
+    - The image used in the what is section is taken from (https://kiddo.edu.au/library/what-physical-literacy)
+    - The image used in the why section is taken from (https://kiddo.edu.au/library/australian-physical-literacy-framework)
 ### - Footer
     - The structure used for the social media links was adapted from the CI LOVE Running Project
