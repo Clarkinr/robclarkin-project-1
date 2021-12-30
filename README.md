@@ -19,7 +19,7 @@ Users can find out basic information about Physical literacy and it's benefits a
     - Each page features a different main image with an tag line intended to represent the page's content
     - The images were all chosen from Pexels and represent physical activity 
 
-! [standard-page-formatting] (/workspace/robclarkin-project-1/screenshots-readme/Standardpage.PNG)
+! [standard-page-formatting] (screenshots-readme/Standardpage.PNG)
 
 ### - About and Benefits page structure
     - Both pages are divided into three sections; main image followed by 2 subsequent sections
@@ -27,21 +27,21 @@ Users can find out basic information about Physical literacy and it's benefits a
     - The Benefits page is intended to show the physical and mental benefits of being physicaly active. 
     - Across all pages I have used images of multiple age atheletes to convey that physical literacy is a life long pursuit.
 
-! [about-structure] (/workspace/robclarkin-project-1/screenshots-readme/About-structure.PNG)
+! [about-structure] (screenshots-readme/About-structure.PNG)
 
 ### - The Home page 
     - The home page features 2 clickable internal links which send the user to the about and Benefits pages.
     - The home page also features a second background image which is intended to draw the user into wanting to know more
     - There is a form for contacting the site owner (the form is not currently active and this is somthing that I would add in at a later date if still working on this project)
 
-! [clickable-links] (/workspace/robclarkin-project-1/screenshots-readme/Clickableinternal links.PNG)
+! [clickable-links] (screenshots-readme/Clickableinternal links.PNG)
 
 
 ### - The Form
     - The Form consits of 4 elements first name, last name, number of kids and email.
     - The site was intended to be aimed at parents and the form is to get in touch with someone to help you get the best program for your lifestyle
 
-! [form-and-footer] (/workspace/robclarkin-project-1/screenshots-readme/Form-footer.PNG)
+! [form-and-footer] (screenshots-readme/Form-footer.PNG)
 
 ### - The Footer
     - The Footer consits of contact information and social media links
@@ -70,10 +70,10 @@ Users can find out basic information about Physical literacy and it's benefits a
     - The results can be seen below 
 
 #### Desktop
-![desktop-lighthouse-test] (/workspace/robclarkin-project-1/screenshots-readme/Lighthouse-desktop.PNG)
+![desktop-lighthouse-test] (screenshots-readme/Lighthouse-desktop.PNG)
 
 #### Mobile 
-![mobile-lighthouse-test] (/workspace/robclarkin-project-1/screenshots-readme/Lighthouse-mobile.PNG)
+![mobile-lighthouse-test] (screenshots-readme/Lighthouse-mobile.PNG)
 
 ## Unfixed bugs
     - The form does not actually link to anywhere at present
