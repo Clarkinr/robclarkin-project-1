@@ -370,7 +370,7 @@ a:link {
 }
 
 
-/*section on physical benefits*/
+/* Defintions Section*/
 
 .def-text {
     font-size: 120%;
@@ -389,13 +389,13 @@ a:link {
     margin: auto;
 }
 
-/* Section on mental benfits*/
+/* Text and Video on Defintions page*/
 
 .more-text {
     margin: 0 auto;
     font-size: 120%;
     width: 40%;
-    padding-top: 200px;
+    padding-top: 300px;
     text-align: center;
     color: #F7982A;
 }
@@ -431,4 +431,179 @@ footer{
 .contact {
     text-align: center;
     color: white;
+}
+
+/* for screen sizes 950px and below*/
+
+@media screen and (max-width: 950px) {
+
+        /* menu */
+    .menu {
+        float: left;
+        clear: left;
+        margin-left: 30px;
+    }
+
+    #what-is {
+        float: left;
+        width: 80%;
+        margin: 10%;
+    }
+
+    #what-is img {
+        width: 30%;
+    }
+
+    #what-text {
+        width: 90%;
+    }
+
+    #why-text {
+        clear: left;
+        float: left;
+        width: 90%;
+    }
+
+    #why {
+        clear: both;
+        text-align: center;
+        width: 80%;
+        margin: 10%;
+    }
+
+   #why-image {
+       width: 30%;
+   } 
+
+    /* Main image on index page */
+
+    #main-image-outer {
+        height: 700px;
+        padding-top: 60px;
+        clear: both;
+        margin-bottom: -200px;
+    }
+
+    #main-image {
+        height: 500px;
+        width: 100%;
+        background: url(../images/pexels-photo-5093614.jpeg) no-repeat center center;
+        margin: 0 auto;
+        }
+
+    /* Cover text */
+    #image-cover {
+        text-align: center;
+        height: auto;
+        color: white;
+        padding-top: 200px;
+    }
+
+    #image-cover h2, h3{
+        font-size: 200%;
+        text-transform: uppercase;
+    }
+    /*Where to start*/
+
+    #starter {
+        clear: both;
+        padding: 60px 0px;
+        border-top: 60px solid white;
+        background: rgba(255, 255, 255, 0.2);
+        background: url(../images/main-image.webp) no-repeat center center;
+        height: 500px;
+        background-size: cover;
+    }
+
+    #starter-text {
+        text-align: center;
+        color: white;
+        font-size: 100%;
+        max-width: 70%;
+        margin-left: 15%;
+        padding-top: 100px;
+    }
+
+
+    /*Get involved link*/
+
+    #involve {
+        margin: 0 auto;
+        width: 33%;
+        border: 2px solid gray;
+        border-radius: 10px;
+        height: 60px;
+        position: absolute;
+        left: 33%;
+        color: gray;
+        background-color: #f3f4f4;
+        font-family: work sans, sans-serif;
+        font-size: 100%;
+    }
+
+    .def-text {
+        font-size: 80%;
+    }
+
+
+    
+    /*benefits page*/
+    .phy-text {
+        clear: both;
+        text-align: center;
+        margin: 10%;
+        float: left;
+        width: 90%;
+    }
+    .phy-image {
+        width: 0%;
+    }
+
+    #mental {
+        clear: both;
+    }
+
+    .ment-text {
+        clear: both;
+        text-align: center;
+        margin: 10%;
+        float: left;
+        width: 90%;
+        padding-top: 10px;
+    }
+    .ment-image {
+        width: 0%;
+    }
+    
+    /* Cover text */
+    #benfits-cover {
+        text-align: center;
+        height: auto;
+        color: white;
+        padding-top: 250px;
+    }
+
+    #benefits-cover h2, h3{
+        font-size: 150%;
+        text-transform: uppercase;
+    }
+
+    /*defintions cover text*/
+    #def-cover {
+        text-align: center;
+        height: auto;
+        color: white;
+        padding-top: 250px;
+    }
+
+    #def-cover h2, h3{
+        font-size: 150%;
+        text-transform: uppercase;
+    }
+
+
+    /*about page*/
+    .more-text {
+        padding-top: 10px;
+    }
 }
